@@ -1,0 +1,20 @@
+h1{
+    color: #008888;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+body
+{
+    background-image:url(E:/Web/BT/BTTH1/imgb1/04.jpg) ;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color:rgb(119, 5, 5);
+    background-size: 200px
+}
+#p1{
+    color: white;
+    background-color: #339999;
+    font-style: italic;
+    font-weight: bold;
+}

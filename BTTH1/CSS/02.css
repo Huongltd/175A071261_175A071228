@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: #1ed363;
+}
+h2{
+    text-decoration: underline;
+    color: blue;
+}
+div
+{
+    background-color :#FFFFCC ;
+    text-align: center;  
+    font-style: italic ; 
+}
+hr{
+    width: 150px;
+}
+#b1{
+    color: violet;
+}
+#b2{
+    color: brown;
+}
+#b3{
+    color: coral;
+}
+#h{
+    text-align: center;
+    background-color: #FECFFD;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF3399;
+}

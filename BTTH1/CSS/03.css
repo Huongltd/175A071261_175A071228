@@ -1,0 +1,14 @@
+body{
+    background-color: #A06D21;
+    color: white;
+    background-image: url(E:/Web/BT/BTTH1/imgb1/VLTT.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+#h{
+    text-align: center;
+    color: #FFCC00 ;
+    font-weight:bold ;
+    font-size: 30px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="CSS/13.css">
+    <script>
+        function onButton() {
+            var the_box = window.document.form.radio2;
+            if (the_box.checked == true) {
+                window.document.form.radio1.checked = false;
+                document.bgColor = 'white';
+            }
+        }
+        function offButton() {
+            var the_box = window.document.form.radio1;
+            if (the_box.checked == true) {
+                window.document.form.radio2.checked = false;
+                document.bgColor = 'white';
+            }
+        }
+        function showma() {
+            var value = "Bạn đã đăng ký thành công!!!";
+            document.getElementById('mylocation').innerText = value;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Đăng ký du lịch</h1>
+    <form name="form">
+        <table border="1">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" size="15"></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td><select name="tour" onchange="show(form.tour.options[selectedIndex].text);">
+                        <optgroup label="Miền Bắc">
+                            <option>Hà Nội - Chùa Hương - Ninh Bình</option>
+                            <option selected>Hà Nội - Hạ Long - Sapa</option>
+                            <option>Hà Nội - Cát Bà - Tuần Châu</option>
+                        </optgroup>
+                        <optgroup label="Miền Trung">
+                            <option>Huế - Bạch Mã - Đà Nẵng</option>
+                            <option>Nha Trang - Đà Lạt</option>
+                            <option>Buôn mê thuột - Gia Lai - Kontum</option>
+                        </optgroup>
+                        <optgroup label="Miền Nam">
+                            <option>TP.HCM - Cần Thơ - Cà Mau</option>
+                            <option>TP.HCM - Mỹ Tho</option>
+                        </optgroup>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td><input type="radio" name="radio1" onclick="offButton();">Máy bay
+                    <input type="radio" name="radio2" onclick="onButton();" checked>Xe ô tô</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Số lượng đoàn khách</legend>
+                        Người lớn<input type="text" size="3"> Trẻ em<input type="text" size="3">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td><textarea name="" id="" cols="20" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="button"><input type="button" value="Đồng ý" onclick="showma();"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="mylocation"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

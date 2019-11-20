@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: rgb(127, 165, 235);
+}
+table{
+    border: rgb(53, 53, 112) solid 1px;
+    background-color: rgb(218, 219, 168);
+    color: rgb(19, 37, 70);
+    border-collapse: collapse;
+    margin-left: 170px;
+    width: 500px;
+    height: 200px;
+}
+#button{text-align: center;}
+div{text-align: center; color: rgb(185, 65, 65);}

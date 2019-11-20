@@ -1,0 +1,28 @@
+.dong1{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+.dong2{height: 5px;}
+.dong3{
+    background-color: #FFBBBB;
+    color: #FF0000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+}
+font{color: #FF0000; font-weight: bold; font-size: 18px;}
+img{
+    width: 150px;
+    height: 120px;
+    margin-left: 15px;
+}
+tbody{width: 500px;}
+table{
+    width: 100%;
+    border: #FF0000 solid 1px;
+    border-collapse: collapse; 
+}
+.anh{width: 80px;}

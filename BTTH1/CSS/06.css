@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    color:  orange;
+    border: orange double;;
+}
+.H{
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+}
+#p1{
+    font-size: 20px;
+    text-align: right;
+    background-color:rgb(250, 189, 77);
+    color: white;
+    font-weight: bold;
+}
+#p2{
+    text-align: right;
+}
+#b{
+    color: brown;
+    
+}
+#c{
+    background: rgb(247, 225, 105);
+}

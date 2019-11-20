@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="CSS/12.css">
+    <script>
+        function onButton() {
+            var the_box = window.document.form.radio2;
+            if (the_box.checked == true) {
+                window.document.form.radio1.checked = false;
+                document.bgColor = 'white';
+            }
+        }
+        function offButton() {
+            var the_box = window.document.form.radio1;
+            if (the_box.checked == true) {
+                window.document.form.radio2.checked = false;
+                document.bgColor = 'white';
+            }
+        }
+        function showma() {
+            var value = "Bạn đã đăng ký thành công!!!";
+            document.getElementById('mylocation').innerText = value;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mại</h1>
+    <form name="form">
+        <table border="1">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" size="15"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td><input type="radio" name="radio1" onclick="offButton();">Name
+                    <input type="radio" name="radio2" onclick="onButton();" checked>Nữ</td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td><select name="job" onchange="show(form.job.options[selectedIndex].text);">
+                        <option selected>Bác sĩ</option>
+                        <option>Kỹ sư</option>
+                        <option>Giáo viên</option>
+                        <option>Khác</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td><select name="job" size="4" multiple="show(form.job.options[selectedIndex].text);">
+                        <option selected>Dầu gội đầu</option>
+                        <option>Bột giặt</option>
+                        <option>Kem đánh răng</option>
+                        <option>Sữa tắm</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td><input type="text" size="10"></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="button"><input type="button" value="Đồng ý" onclick="showma();"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><div id="mylocation"></div></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

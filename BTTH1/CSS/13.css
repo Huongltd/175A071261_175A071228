@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: rgb(33, 116, 211);
+}
+table{
+    border: rgb(39, 43, 44) solid 1px;
+    background-color: rgb(184, 233, 169);
+    color: rgb(10, 39, 51);
+    border-collapse: collapse;
+    margin-left: 170px;
+    width: 500px;
+    height: 200px;
+}
+#button{text-align: center;}
+fieldset{
+    border: orangered solid 1px;
+    width: 350px;
+    height: 55px;
+    margin-left: 55px;
+    text-align: center;
+}
+legend{font-style: italic; color: orangered;}
+textarea{width: 300px;}
+div{text-align: center; color: rgb(214, 131, 22);}

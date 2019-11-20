@@ -1,0 +1,31 @@
+#l1{
+    background-color: #FFEDCA;
+}
+#ten{
+    text-align: left;
+}
+#B{
+    display: flex;
+}
+img{
+    width:500px ;
+    height: 250px;
+}
+h1{
+    text-align: center;
+    color: #CC6600;
+    font-weight: bold;
+    font-size: 30px;
+}
+table{
+    width: 450px;
+    border: brown solid 1px;;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+thead{
+    background-color: #CC6600;
+    color: white;
+}

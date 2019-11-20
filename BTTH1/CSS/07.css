@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+    color: orchid;
+}
+font{
+    background-color: orchid;
+    color: white;
+    font-weight: bold;
+    
+}
+p{
+    background-color: wheat;
+}
+#H{
+    display: flex;
+}

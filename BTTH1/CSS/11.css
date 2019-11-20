@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+table{
+    border: darkred solid 1px;
+    background-color: rgb(143, 179, 180);
+    border-collapse: collapse;
+    margin-left: 270px;
+}
+#button{text-align: center;}
+div{text-align: center;}
