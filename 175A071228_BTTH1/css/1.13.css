@@ -1,0 +1,33 @@
+h3{
+    color:rgb(55, 55, 209);
+    text-align: center;
+}
+#a1{
+    box-align:center;
+    width: 100%;
+
+}
+#a2{
+    
+    border-color:rgb(231, 84, 15) ;
+    color: rgb(25, 178, 216);
+    background-color: rgb(240, 237, 99);
+     border-collapse:collapse; 
+    
+
+}
+#name{
+    width: 35%;
+}
+fieldset{
+   text-align: left;
+    width:350px;
+    height: 55px;
+    border-color:#781100;
+
+}
+legend{
+    font-style:italic;
+    color: rgb(25,278,216);
+                                                                                                                                               
+}

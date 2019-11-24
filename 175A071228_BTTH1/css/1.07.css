@@ -1,0 +1,19 @@
+
+#menu{
+    display: flex;
+    margin-top: 50px;
+    
+}
+#anh{
+
+    width: 30%;
+    padding-right: 2%;
+
+}
+#em{
+    width: 65%;
+
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+#header{
+    display: flex;
+    background-color: #FFEDCA;
+    width: 100%;
+
+}
+#doan{
+    width: 30%;
+    height: auto;
+    text-align: left;
+    padding-left: 2%;   
+}
+h1{
+    color: #CC6600;
+    text-align: left;
+}
+#dsdoan{
+    width: 65%;
+    padding-left: 2% ;
+}
+img{
+    width: 100%;
+}
+table ,th,td {
+    border: 1px solid #cc0033;
+    border-width:1px ;
+    border-collapse: collapse;
+}
+
