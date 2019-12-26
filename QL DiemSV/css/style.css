@@ -1,0 +1,41 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Gamja Flower';
+	font-size: 20px;
+	color: #0885ec;
+}
+
+.navbar { 
+	background-color: white!important;
+}
+.navbar li a {
+    color: #0885ec  !important;
+}
+.navbar li a:hover {
+    color: black !important;
+}
+.carousel-inner img {
+	width: 100%;
+}
+.social a {
+	font-size: 3em;/*1em = 16px*/
+	padding: 3rem;/*1rem = 1 "font-size" */
+}
+.fa-youtube,.fa-twitter,.fa-facebook {
+	color: #ffffff;
+}
+footer {
+	background-color: #0aa9e7;
+	color: #ffff;
+}
+
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
