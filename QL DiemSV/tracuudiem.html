@@ -16,28 +16,39 @@
                         <table style="width:100%"  class="">
                         <tr>
                             <th><div class="form-group">
-                                    <label for="tenSinhvien">Tên sinh viên:</label>
-                                    <input type="text"  id="tenSV" class="form-control" placeholder="nhập tên sinh viên" name="">
+                                    <label for="CMT">Nhập chứng minh thư:</label>
+                                    <input type="text"  id="cmt" class="form-control" placeholder="nhập số chứng minh thư" name="">
                                   </div>
                                 </th>
                             <th><div class="form-group">
                                     <label for="maSinhvien">Mã sinh viên:</label>
-                                    <input type="text" class="form-control" id="maSV" placeholder="nhập mã sih viên" name="">
+                                    <input type="text" class="form-control" id="maSV" placeholder="nhập mã sinh viên" name="">
                                   </div></th>
                         </tr>
                         <tr>
-                            <th><div class="form-group">
-                                    <label for="tenMonhoc">Tên môn học:</label>
-                                    <input type="text" class="form-control" id="tenMH" placeholder="nhập tên môn học" name="">
-                                  </div></th>
-                            <th><div class="form-group">
-                                    <label for="maMonhoc">Mã môn học:</label>
-                                    <input type="text" class="form-control" id="maMH" placeholder="nhập mã môn học" name="">
-                                  </div></th>
+                            <th>
+                                    Năm học: </br>
+                                <select name="namhoc">
+                                        <option value="2017-2018">2017-2018</option>
+                                        <option value="2018-2019">2018-2019</option>
+                                        <option value="2019-2020">2019-2020</option>
+                                        <option value="2020-2021">2020-2021</option>
+                                </select>    
+                            </th>
+                            <th>
+                                    Giai đoạn - Học kỳ: </br>
+                                    <select name="hocky">
+                                                <option value="1-1">Giai đoạn 1 - Học kỳ 1</option>
+                                                <option value="2-1">Giai đoạn 2 - Học kỳ 1</option>
+                                                <option value="1-2">Giai đoạn 1 - Học kỳ 2</option>
+                                                <option value="2-2">Giai đoạn 2 - Học kỳ 2</option>
+                                        </select>     
+
+                            </th>
                         </tr>
                         </table>
                         <tr class="">
-                                <button  class="btn btn-primary" type="submit">Tìm kiếm</button>
+                                <button  class="btn btn-primary" type="submit" onclick="alert('Không tìm thấy! Vui lòng kiểm tra lại!')">Tìm kiếm</button>
                         </tr>
                 </form>
         </div>
@@ -50,7 +61,11 @@
                         <th>Tên sinh viên</th>
                         <th>Tên môn học</th>
                         <th>Mã môn học</th>
+                        <th>Năm học</th>
+                        <th>Giai đoạn</th>
+                        <th>Học kỳ</th>
                         <th>Điểm</th>
+
                     </tr>
                 </thead>
                 </table>
